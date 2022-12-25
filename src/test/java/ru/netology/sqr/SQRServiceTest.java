@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SQRServiceTEst {
+class SQRServiceTest {
     @Test
     public void calcTestSQR() {
         SQRService service = new SQRService();
@@ -21,7 +21,7 @@ class SQRServiceTEst {
 
 }
     @Test
-    public void calcTEstSQR3() {
+    public void calcTestSQR3() {
         SQRService service = new SQRService();
         int actual = service.findingSQR(9802, 9999);
         int expected = 0;
@@ -29,7 +29,7 @@ class SQRServiceTEst {
     }
 
     @Test
-    public void calcTEstSQR5() {
+    public void calcTestSQR5() {
         SQRService service = new SQRService();
         int actual = service.findingSQR(0, 99);
         int expected = 0;
